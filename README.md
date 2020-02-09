@@ -3,8 +3,8 @@
 # Portfolio Page
 
 # Contributors
-*mwturner611
-*Background icon made by Nhor Phai at https://www.flaticon.com/authors/nhor-phai
+* mwturner611
+* Background icon made by Nhor Phai at https://www.flaticon.com/authors/nhor-phai
 
 # Technology
 HTML,CSS,Bootstrap, Media Queries

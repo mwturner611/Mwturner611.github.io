@@ -21,7 +21,7 @@ This code is a portfolio page's layout.  Feel free to use it for your own portfo
 All contributions and suggestions are welcome! For direct contributions, please fork the repository and file a pull request.
 
 
-#Contact
+# Contact
 * Name: Matt Turner (@mwturner611)
 * e-mail: mwturner611@gmail.com
 * LinkedIn: https://www.linkedin.com/in/matt-turner-ba328211a/*

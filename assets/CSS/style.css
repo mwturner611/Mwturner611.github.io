@@ -6,8 +6,41 @@ body{
     background-color: lightseagreen;
 }
 
+.middle{
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/*  */
 .bacima{
     width: 100%;
     height: auto;
+    opacity: 0.20;
+}
+
+/* portfolio pg hover fade images*/
+.imgfade:hover {
     opacity: 0.25;
 }
+
+.middle:hover ~ .imgfade{
+    opacity:0.25;
+}
+
+
+/* margin for portfolio page columns 
+
+STILL A PROBLEM NEED TO FIX*/
+.colpad {
+    margin-left: 50px;
+    
+}
+
+
+

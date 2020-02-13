@@ -22,12 +22,10 @@ body{
     -ms-transform: translate(-50%, -50%);
     text-align: center;
   }
-
 /*when hover over card make picture fade*/
 .imgfade:hover .img{
     opacity: 0.25;
 }
-
 /* when hover over card make words in middle become visible */
  .imgfade:hover .middle{
     opacity: 1;
@@ -35,7 +33,24 @@ body{
     color: black;
 }
 
+/* Portfolio cards center on page and padding */
+.imgfade {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
 
+/* Home and contact elements center and padding */
+.centerpad{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* remove blue color from link text */
+a {
+    color: black;
+}
 
 
 

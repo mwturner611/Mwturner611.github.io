@@ -1,16 +1,17 @@
 
 /* padd body to account for fixed header and footer */
 body{
-    padding-top:70px;
+    padding-top:100px;
     padding-bottom: 70px;
 }
 
-/* set background color of navbar */
+/* set background color of navbar and footer */
 .navcol {
     background-color: lightseagreen;
 }
 
-/* make words in center of image */
+/* portfolio page hover magic */
+/* make invisible words in center of img's */
 .middle{
     transition: .5s ease;
     opacity: 0;
@@ -20,14 +21,14 @@ body{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-    
   }
 
-/* portfolio pg hover fade images*/
+/*when hover over card make picture fade*/
 .imgfade:hover .img{
     opacity: 0.25;
-   
 }
+
+/* when hover over card make words in middle become visible */
  .imgfade:hover .middle{
     opacity: 1;
     font-weight: bold;

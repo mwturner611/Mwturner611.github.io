@@ -1,7 +1,8 @@
 
-/* padd body to account for fixed header */
+/* padd body to account for fixed header and footer */
 body{
-    padding-top:70px
+    padding-top:70px;
+    padding-bottom: 70px;
 }
 
 /* set background color of navbar */

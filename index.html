@@ -1,78 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
-
-    <!-- scale for mobile device -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Document</title>
     <!-- link to bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <!-- link to css style sheet -->
     <link rel="stylesheet" href="assets/CSS/style.css">
+    <script src="https://kit.fontawesome.com/90ddc165de.js" crossorigin="anonymous"></script>
     
 </head>
-
 <body>
-
-  <!-- navbar setup -->
-<header class="container-flex fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-light navcol">
-        <h1 class="navbar-brand">Matt Turner</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+     <!-- navbar setup -->
+     <header id="home" class="container-flex fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light navcol">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#home">Home</span></a>
+                <a class="nav-item nav-link" href="#bio">Bio</span></a>
+                <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-item nav-link" href="#contact">Contact<span class="sr-only"></a>
+              </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div id="fullpage">
         
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
-          </div>
-        </div>
-    </nav>
-</header>
+        <section>
+            <h1>Dynamic text here</h1>
+        </section>
+        
+        
+        <section id="bio">
+            <div class="container align-items-center h-100">
+                <div class="row align-items-center h-100">
+                    <div class ="col-md-4">
+                        <img src="assets/Images/Turner.jpg" class="img-fluid centerpad" alt="pic of Matt">
+                    </div>
 
-<main>
-  <!--bootstrap container/row/column for picture and about me section -->
-  <div class="container">
-    <div class="row align-items-center">
-      <div class ="col-md-4">
-        <img src="assets/Images/Turner.jpg" class="img-fluid centerpad" alt="pic of Matt">
-      </div>
-      <div class ="col-lg-8">
-        <div class="card centerpad">
-          <div class="card-header">
-            About Me
-          </div>
-          <div class="card-body">
-            <blockquote class="blockquote mb-0">
-              <p>Coming from being a Bank's Credit Analyst to an HR Department's Senior Analyst I'm learning to code at Vanderbilt's Fullstack coding bootcamp.  Day by day I'm building my software development portfolio. </p>
-            </blockquote>
-          </div>
-        </div>
-      </div>
+                    <div class ="col-lg-8">
+                        <div class="card centerpad">
+                            <div class="card-header">
+                            About Me
+                            </div>
 
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0">
+                                    <p>Coming from being a Bank's Credit Analyst to an HR Department's Senior Analyst I'm learning to code at Vanderbilt's Fullstack coding bootcamp.  Day by day I'm building my software development portfolio. </p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container align-items-center h-100">
+                <div class="row">
+                    
+                </div>
+                <div class="row align-items-center h-100">
+                    <div class="col-sm-2">
+                        <i class="fab fa-html5 fa-5x"></i>
+                    </div>
+                    <div class="col-sm-2">
+                        <i class="fab fa-css3 fa-5x"></i>
+                    </div>
+                    <div class="col-sm-2">
+                        <i class="fab fa-js fa-5x"></i>
+                    </div>
+                    <div class="col-sm-2">
+                        <i class="fab fa-node-js fa-5x"></i>
+                    </div>
+                    <div class="col-sm-2">
+                        MySQL
+                    </div>
+                    <div class="col-sm-2">
+                        Express JS
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+       
+        <section id="portfolio">
+            <!-- bootstrap container/row/column for two columns of projects -->
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                <!-- left column portfolio projects -->
+                    <div class="col-md-4">
+                        <!-- link to other html page -->
+                        <a href="https://mwturner611.github.io/Code_Quiz/">
+                        <!-- create card -->
+                            <div class="card imgfade" style="width: 18rem;">
+                                <!-- add an image -->
+                                <img class="card-img-top img" height="100px" width="25px" src="assets/Images/quiz.png" alt="Card image cap">
+                                <!-- create text in middle of image -->
+                                <div class="middle">
+                                    <div>Please click to see more</div>
+                                </div>
+                                <!-- add card body text -->
+                                <div class="card-body">
+                                    <p class="card-text text-center">This is a timed code quiz page that I created using JavaScript</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">    
+                        <a href="https://mwturner611.github.io/Weather-Dashboard/">
+                        <div class="card imgfade" style="width: 18rem;">
+                        <img class="card-img-top img" height="100px" width="25px" src="assets/Images/weather.JPG" alt="Card image cap">
+                        <div class="middle">
+                            <div>Please click to see more</div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">This is a weather lookup by city page</p>
+                        </div>
+                        </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="project.html">
+                        <div class="card imgfade" style="width: 18rem;">
+                        <img class="card-img-top img" height="100px" width="25px" src="assets/Images/Colton_Duke.jpg" alt="Card image cap">
+                        <div class="middle">
+                            <div>Please click to see more</div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Place holder image and description for a future project.</p>
+                        </div>          
+                        </div>
+                        </a>
+                    </div>
+                    <!-- end left col -->
+                </div>
+
+                <!-- right column portfolio projects -->
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-4">
+                        <a href="https://mwturner611.github.io/Work-Day-Scheduler/">
+                        <div class="card imgfade" style="width: 18rem;">
+                            <img class="card-img-top img" height="100px" width="25px" src="assets/Images/todo.png" alt="Card image cap">
+                            <div class="middle">
+                            <div>Please click to see more</div>
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text text-center">Check out this to do list utilizing jQuery, Moment.js and local storage</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">  
+                        <a href="https://mwturner611.github.io/Life_On_Mars/">  
+                        <div class="card imgfade" style="width: 18rem;">
+                            <img class="card-img-top img" height="100px" width="25px" src="assets/Images/mars.JPG" alt="Card image cap">
+                            <div class="middle">
+                            <div>Please click to see more</div>
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text text-center">This is a site on Mars calling on two Nasa API's.</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">  
+                        <a href="project.html">  
+                        <div class="card imgfade" style="width: 18rem;">
+                            <img class="card-img-top img" height="100px" width="25px" src="assets/Images/Sam_Wermut.jpg" alt="Card image cap">
+                            <div class="middle">
+                            <div>Please click to see more</div>
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text text-center">Place holder image and description for a future project.</p>
+                            </div>
+                        </div>
+                        </a> 
+                    </div> 
+                <!-- end row -->  
+                </div>  
+            <!-- end container -->
+            </div>
+        </section>
+        <section id="contact">
+            <div class="conainer p-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">                      
+                          <form class="centerpad">
+                            <div>
+                              <h2>
+                                  Contact Me
+                              </h2> 
+                              <p>
+                                If you're in need of someone with my skillset please reach out to me using the form below.
+                              </p> 
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Name</label>
+                              <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-black bg-light mb-3 centerpad">
+                            <div class="card-header navcol">My Info</div>
+                            <div class="card-body">
+                              <h5 class="card-title">Email</h5>
+                              <p class="card-text">mwturner611@gmail.com</p>
+                              <h5 class="card-title">LinkedIn</h5>
+                              <a class="nav-item nav-link" href="https://www.linkedin.com/in/matt-turner-ba328211a/">www.linkedin.com/in/matt-turner</a>
+                              <h5 class="card-title">Github</h5>
+                              <a class="nav-item nav-link" href="https://github.com/mwturner611/Mwturner611.github.io">www.github.com/mwturner611</a>
+                            </div>
+                          </div>
+                    </div>
+    
+                <!-- end of row -->
+                </div>
+    
+            <!-- end container -->
+            </div>
+
+        </section>
+        
     </div>
+     <!-- Bootstrap links for js -->
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
-  </div>
-</main>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ 
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<!-- fixed footer-->
-<footer class="container-flex fixed-bottom">
-  <nav class="navbar navbar-expand-lg navbar-light navcol">
-      <h1 class="navbar-brand"></h1>
-  </nav>
-</footer>
-
-    <!-- Bootstrap links for js -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
+    
+    <script src="jquery.fullpage.min.js"></script>
+    <script type="text/javascript">
+        FastClick.attach(document.body);
+        $('#fullpage').fullpage();
+    </script>
 </body>
 </html>

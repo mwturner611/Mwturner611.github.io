@@ -1,14 +1,29 @@
 
-/* padd body to account for fixed header and footer */
 body{
-    padding-top:100px;
-    padding-bottom: 70px;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* set background color of navbar and footer */
-.navcol {
-    background-color: lightseagreen;
+#fullpage section 
+{
+    height: 100vh; 
+    width: 100vw;
+    
 }
+
+#fullpage section h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 100vh;
+}
+
+#fullpage {
+    height: 100vh;
+    overflow: hidden;
+}
+
 
 /* portfolio page hover magic */
 /* make invisible words in center of img's */
@@ -51,6 +66,38 @@ body{
 a {
     color: black;
 }
+
+.col-md-4 {
+    margin-top: 50px;
+}
+
+#fullpage section:nth-child(1)
+{
+    background: #f00;
+}
+
+#fullpage section:nth-child(2)
+{
+    background: rgb(0, 255, 242);
+}
+
+#fullpage section:nth-child(3)
+{
+    background: #0ff;
+}
+
+#fullpage section:nth-child(4)
+{
+    background: #f0f;
+}
+
+#fullpage section:nth-child(5)
+{
+    background: #00ff00;
+}
+
+
+
 
 
 

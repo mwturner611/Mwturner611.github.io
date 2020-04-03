@@ -63,37 +63,40 @@ body{
 }
 
 /* remove blue color from link text */
-a {
+p {
     color: black;
 }
 
+.whiteText {
+    color: white;
+}
 .col-md-4 {
     margin-top: 50px;
 }
 
 #fullpage section:nth-child(1)
 {
-    background: #f00;
+    background: #3C5A67;
 }
 
 #fullpage section:nth-child(2)
 {
-    background: rgb(0, 255, 242);
+    background: #51AE9F;
 }
 
 #fullpage section:nth-child(3)
 {
-    background: #0ff;
+    background: #4F4571;
 }
 
 #fullpage section:nth-child(4)
 {
-    background: #f0f;
+    background: #0081CF;
 }
 
 #fullpage section:nth-child(5)
 {
-    background: #00ff00;
+    background: #008E9B;
 }
 
 

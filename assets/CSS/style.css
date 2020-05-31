@@ -62,9 +62,9 @@ body{
 }
 
 /* remove blue color from link text */
-p {
+/* p {
     color: black;
-}
+} */
 
 .whiteText {
     color: white;

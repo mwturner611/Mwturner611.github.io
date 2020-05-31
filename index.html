@@ -24,6 +24,7 @@
               <a class="dropdown-item" href="mailto:mwturner611@gmail.com">Email: mwturner611@gmail.com</a>
               <a class="dropdown-item" href="https://www.linkedin.com/in/matt-turner-ba328211a/">LinkedIn</a>
               <a class="dropdown-item" href="https://github.com/mwturner611">Github</a>
+              <a class="dropdown-item" href="https://drive.google.com/file/d/1QCiuGbfZzCHkoTmAaynAgrOwAaxXnOlQ/view?usp=sharing">Resume</a>
             </div>
         </div>
 
@@ -39,7 +40,6 @@
                 <a class="nav-item nav-link" href="#bio">AboutMe</span></a>
                 <a class="nav-item nav-link" href="#tech">Tech Skills</span></a>
                 <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-                <a class="nav-item nav-link" href="#contact">Contact<span class="nav-item"></a>
               </div>
             </div>
         </nav>
@@ -50,7 +50,7 @@
         <section id="home">
             
         <h1 class="whiteText">Hi I'm Matt Turner</h1>
-                
+            
             
         </section>
         
@@ -59,7 +59,7 @@
             <div class="container align-items-center h-100">
             
                 <div class="row align-items-center h-100">
-                    <div class ="col-md-4">
+                    <div class ="col-md-4 topMarg">
                         <img src="assets/Images/Turner.jpg" class="img-fluid centerpad" alt="pic of Matt">
                     </div>
 
@@ -81,41 +81,67 @@
         </section>
 
         <section id="tech">
+            
             <div class="container align-items-center h-100">
+                               
                 <div class="row align-items-center h-100">
-                    <div class="col-sm-2">
-                        <p class="whiteText">Here are some Languages & Technologies I use -> </p>
+                    
+                    <div class="col-md-4 skillBox">
+                        <div class="card skills" style="width: 18rem;">
+                            <div class="card-header">
+                              Front-End
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item"><i class="fab fa-html5 fa-1x"></i> HTML</li>
+                              <li class="list-group-item"><i class="fab fa-css3 fa-1x"></i> CSS</li>
+                              <li class="list-group-item"><img src="assets/Images/Bootstrap.png" height="14px" width="14px" alt="Bootstrap"> Bootstrap</li>
+                              <li class="list-group-item"><i class="fab fa-js fa-1x"></i> JavaScript</li>
+                              <li class="list-group-item">JQuery</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-sm-2">
-                        <i class="fab fa-html5 fa-5x"></i>
-                        <p>HTML5</p>
+                    <div class="col-md-4 skillBox">
+                        <div class="card skills" style="width: 18rem;">
+                            <div class="card-header">
+                                Back-End
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><i class="fab fa-node-js fa-1x"></i> NodeJS</li>
+                                <li class="list-group-item">Express <i class="fab fa-js fa-1x"></i></li>
+                                <li class="list-group-item"><img src="assets/Images/mySQL.png" height="14px" width="14px" alt="MySQL"> MySQL</li>
+                                <li class="list-group-item"><img src="assets/Images/mongodb.png" height="14px" width="14px" alt="MongoDB"> MongoDB</li>
+                                <li class="list-group-item"><img src="assets/Images/mongoose.png" height="20px" width="20px" alt="Mongoose">  Mongoose</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-sm-2">
-                        <i class="fab fa-css3 fa-5x"></i>
-                        <p>CSS3</p>
-                    </div>
-                    <div class="col-sm-2">
-                        <i class="fab fa-js fa-5x"></i>
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="col-sm-2">
-                        <i class="fab fa-node-js fa-5x"></i>
-                        <p>Node.js</p>
-                    </div>
-                    <div class="col-sm-2">
-                        <img src="assets/Images/mySQL.png" height="75px" width="75px" alt="MySQL">
+                    <div class="col-md-4 skillBox">
+                        <div class="card skills" style="width: 18rem;">
+                            <div class="card-header">
+                                Other Skills
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Github</li>
+                                <li class="list-group-item">Concepts I'm Familiar with<ul>
+                                    <li>Object Oriented Programming</li>
+                                    <li>Test Driven Development</li>
+                                    <li>Scrum</li>
+                                  </ul>
+                                </li>
+                                
+
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                
             </div>
         </section>
-       
+
         <section id="portfolio">
             <!-- bootstrap container/row/column for two columns of projects -->
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                 <!-- left column portfolio projects -->
-                    <div class="col-md-4">
+                    <div class="col-md-4 topMarg">
                         <!-- link to other html page -->
                         <a href="https://mwturner611.github.io/Code_Quiz/">
                         <!-- create card -->
@@ -133,7 +159,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4">    
+                    <div class="col-md-4 topMarg">    
                         <a href="https://mwturner611.github.io/Weather-Dashboard/">
                         <div class="card imgfade" style="width: 18rem;">
                         <img class="card-img-top img" height="100px" width="25px" src="assets/Images/weather.JPG" alt="Card image cap">
@@ -147,7 +173,7 @@
                         </a>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 topMarg">
                         <a href="https://burger-quest.herokuapp.com/">
                         <div class="card imgfade" style="width: 18rem;">
                         <img class="card-img-top img" height="100px" width="25px" src="assets/Images/burger.JPG" alt="Card image cap">
@@ -165,7 +191,7 @@
 
                 <!-- right column portfolio projects -->
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-md-4">
+                    <div class="col-md-4 topMarg">
                         <a href="https://mwturner611.github.io/Work-Day-Scheduler/">
                         <div class="card imgfade" style="width: 18rem;">
                             <img class="card-img-top img" height="100px" width="25px" src="assets/Images/todo.png" alt="Card image cap">
@@ -178,7 +204,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-md-4">  
+                    <div class="col-md-4 topMarg">  
                         <a href="https://mwturner611.github.io/Life_On_Mars/">  
                         <div class="card imgfade" style="width: 18rem;">
                             <img class="card-img-top img" height="100px" width="25px" src="assets/Images/mars.JPG" alt="Card image cap">
@@ -191,7 +217,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-md-4">  
+                    <div class="col-md-4 topMarg">  
                         <a href="project.html">  
                         <div class="card imgfade" style="width: 18rem;">
                             <img class="card-img-top img" height="100px" width="25px" src="assets/Images/Sam_Wermut.jpg" alt="Card image cap">
@@ -209,56 +235,7 @@
             <!-- end container -->
             </div>
         </section>
-        <section id="contact">
-            <div class="conainer p-5">
-                <div class="row align-items-center">
-                    <div class="col-lg-8">                      
-                          <form class="centerpad">
-                            <div>
-                              <h2>
-                                  Contact Me
-                              </h2> 
-                              <p>
-                                If you're in need of someone with my skillset please reach out to me using the form below.
-                              </p> 
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleInputEmail1">Name</label>
-                              <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="Enter your name">
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleInputEmail1">Email address</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                          </form>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card text-black bg-light mb-3 centerpad">
-                            <div class="card-header navcol">My Info</div>
-                            <div class="card-body">
-                              <h5 class="card-title">Email</h5>
-                              <p class="card-text">mwturner611@gmail.com</p>
-                              <h5 class="card-title">LinkedIn</h5>
-                              <a class="nav-item nav-link" href="https://www.linkedin.com/in/matt-turner-ba328211a/">www.linkedin.com/in/matt-turner</a>
-                              <h5 class="card-title">Github</h5>
-                              <a class="nav-item nav-link" href="https://github.com/mwturner611/Mwturner611.github.io">www.github.com/mwturner611</a>
-                            </div>
-                          </div>
-                    </div>
-    
-                <!-- end of row -->
-                </div>
-    
-            <!-- end container -->
-            </div>
-
-        </section>
-        
+                
     </div>
 <!-- popper for drop down contact menu -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>

@@ -5,12 +5,10 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* #fullpage section 
-{
-    height: 100vh; 
-    width: 100vw;
-    
-} */
+.dropdown {
+    margin: 10px;
+}
+
 
 #fullpage section h1 {
     margin: 0;
@@ -20,9 +18,13 @@ body{
 }
 
 #fullpage section {
-    min-height: 100vh;
-    
+    min-height: 100vh;    
 }
+
+.skillBox{
+    margin-top: 30vh;
+}
+
 
 /* portfolio page hover magic */
 /* make invisible words in center of img's */
@@ -69,7 +71,8 @@ body{
 .whiteText {
     color: white;
 }
-.col-md-4 {
+
+ .topMarg{
     margin-top: 50px;
 }
 

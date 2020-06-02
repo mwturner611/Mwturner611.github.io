@@ -21,8 +21,19 @@ body{
     min-height: 100vh;    
 }
 
+.skillRow{
+    /* margin-top: 100vh; */
+    
+}
+
 .skillBox{
-    margin-top: 30vh;
+    margin-top: 50px;
+    padding-left: 60px;
+    /* padding-right: 15px; */
+    /* margin-right: 5px;
+    margin-left: 5px; */
+    margin-bottom: 10px;
+    
 }
 
 
@@ -74,6 +85,10 @@ p {
 
  .topMarg{
     margin-top: 50px;
+}
+
+.pgHeader {
+    padding-top: 25px;
 }
 
 #fullpage section:nth-child(1)

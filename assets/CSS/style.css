@@ -9,13 +9,24 @@ body{
     margin: 10px;
 }
 
-
-#fullpage section h1 {
+#typeText{
     margin: 0;
     padding: 0;
     text-align: center;
     line-height: 100vh;
+    animation: type 3s steps(61);
+    /* overflow: hidden;
+    white-space:nowrap; */
 }
+@keyframes type {
+    0% {
+        width:0ch;
+    }
+    100% {
+        width:61ch;
+    }
+}
+
 
 #fullpage section {
     min-height: 100vh;    

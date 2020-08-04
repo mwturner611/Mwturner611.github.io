@@ -12,7 +12,7 @@ body{
 .colorText{
     color: #3C5A67;
 }
-/* one more attempt to fix the issue */
+
 .center{
     margin: 0 auto;
     position: absolute;
@@ -96,7 +96,7 @@ body{
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
